@@ -13,9 +13,9 @@ require_once('../partials/headn.php');
         <div class="col-sm-12">
           <div class="rowFirstHeader">
             <p></p>
-            <p><img src="images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
-          <p>  <img src="images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
-           <p> <img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> 
+            <p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
+          <p>  <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
+           <p> <img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> 
             Wote town along Wote-Malivani road &emsp; &emsp; </p>
            <p> P.O BOX 253-90300 Wote-Makueni</p>
           </div>
@@ -33,17 +33,17 @@ require_once('../partials/headn.php');
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a id="homeButton1" class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a id="homeButton1" class="nav-link active" aria-current="page" href="home">Home</a>
                   </li>
                   
                   <li class="nav-item">
-                    <a id="navButton" class="nav-link active" aria-current="page" href="history.html">School History</a>
+                    <a id="navButton" class="nav-link active" aria-current="page" href="history">School History</a>
                   </li>
                   <li class="nav-item">
-                    <a id="navButton" class="nav-link active" aria-current="page" href="management.html">Board of Management</a>
+                    <a id="navButton" class="nav-link active" aria-current="page" href="management">Board of Management</a>
                   </li>
                   <li class="nav-item">
-                    <a id="navButton" class="nav-link active" aria-current="page" href="#firstFooter">Contact Us</a>
+                    <a id="navButton" class="nav-link active" aria-current="page" href="contacts">Contact Us</a>
                   </li>
                   
                 </ul>
@@ -53,7 +53,7 @@ require_once('../partials/headn.php');
           </nav>
     </div>
     <div id="body">
-        <img src="images1/principal3.jpg" class="img-fluid" alt="">
+        <img src="../public/ack/images1/principal3.jpg" class="img-fluid" alt="">
         <div class="col-sm-12">
             <h2>A Message from the School Sponsor</h2>
 <p>It gives me great pleasure to write these welcome
@@ -83,18 +83,19 @@ With Blessings, welcome all…
         <div id="footer1" class="row">
             <div id="ImportantLinks" class="col-sm-4">
               <h3>Important Links</h3>
-              <a id="anchorTag" href="index.html">Home</a> <br>
-              <a id="anchorTag" href="departments.html">Departments</a> <br>
-              <a id="anchorTag" href="boarding.html">Boarding</a> <br>
-              <a id="anchorTag" href="management.html">Board of Management</a> <br>
-             
-              <a id="anchorTag" href="sponsor.html">Sponsor</a>
+              <a id="anchorTag" href="home">Home</a> <br>
+              <a id="anchorTag" href="academics">Academics</a> <br>
+              <a id="anchorTag" href="boarding">Boarding</a> <br>
+              <a id="anchorTag" href="departments">Departments</a> <br>
+              <a id="anchorTag" href="boarding">Boarding</a> <br>
+              <a id="anchorTag" href="management">Board of Management</a> <br>
+              <a id="anchorTag" href="sponsor">Sponsor</a>
             </div>
             <div class="col-sm-4">
               <h3>Contact Us</h3>
               <p>Call Us on 0743865970</p>
               <h3>Visit Us</h3>
-             <p><img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
+             <p><img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
 
             </div>
             <div class="col-sm-4">
@@ -108,11 +109,7 @@ With Blessings, welcome all…
         <p>Copyright &copy; 2024 ACK ST. Luke's Primary School. All rights reserved.</p>
     </div>
    </div> 
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <!-- scripts -->
 <?php include("../partials/scriptn.php"); ?>
 </body>
-</>
+</html>

@@ -28,6 +28,8 @@ require_once('../partials/headn.php');
               <a id="homeButton" class="navbar-brand" href="#">ACK St.Luke's Wote Township <br> Day and Boarding Primary <br> and Junior School <br> <span id="navButton1">Strive For Excellence.</span></a>
 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <a id="homeButton" class="navbar-brand" href="#">ACK St.Luke's Wote Township <br> Day and Boarding Primary and Junior School <br> <span id="navButton1">Strive For Excellence.</span></a> -->
+
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,56 +54,24 @@ require_once('../partials/headn.php');
           </nav>
     </div>
     <div id="body">
-        <h2>Boarding.</h2>
-        <div class="row">
-          <div class="col-sm-6">
-            <img id="boardingImage" src="../public/ack/images1/hostel1.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-sm-6">
-      <h3>Why board at ACK ST.Luke's Wote Township.</h3>
-      <p>The ACK Wote Township Boarding Program is like a second home for students.
-         They have plenty of time to study both in the evenings and in the mornings.
-          The school provides balanced meals to keep them healthy, and there’s always 
-          enough water and electricity. If a student gets sick, there is a
-         trained nurse to help them. Additionally, there’s a guidance and counseling
-          team available to support students if they need help with anything. 
-          Our boarding program is available for students in grades 4 to 9.</p>
-          <p>For more information Call 0743865970 or click <a href="contacts.html">here</a> to submit and inquiry.</p>
-          </div>
-        </div>
-        <div class="row">
-      <div class="col-sm-4">
-        <h3>Boarding houses.</h3>
-        <p>Our boarding houses offer a 
-          safe and nurturing environment for students.
-           We have separate houses for boys and girls, 
-           with specific rules to ensure everyone’s
-            safety and privacy. Each house is well-equipped
-             with all the necessary amenities to create a
-              comfortable and supportive living space for students.</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Boarders Well-being</h3>
-        <p>We understand that being away 
-          from home can be challenging for students,
-           so we have various measures in place to
-            support their well-being. Our boarding master
-             and boarding mistress are available to assist
-              with any needs. Additionally, our experienced
-               and caring staff in the boarding houses are
-                there to look after the students. Besides their
-                 studies, students are encouraged to participate 
-                 in sports and other extracurricular activities 
-                 to help them relax and enjoy their time away from home.</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Faith and Religion</h3>
-        <p>As an ACK-sponsored school, we have a chaplain who supports 
-          our students in growing their faith while they are at school.
-           We are dedicated to nurturing their
-           faith and helping them develop strong morals and values as 
-           they grow. Students also have the opportunity to attend Sunday service every week.</p>
-      </div>
+        <img src="../public/ack/images1/sponsor.jpg" class="img-fluid" alt="">
+        <div class="col-sm-12">
+            <h2>A Message from the School Board of Management</h2>
+<p>Welcome to the official website of our school. As the School Board of Management, we are delighted to extend our warmest greetings to students, parents, staff, and visitors.
+<br> <br>
+    Our role is to oversee the strategic direction of the school, ensuring that we uphold the highest standards of education and foster an environment where each student can excel. We are dedicated to supporting our school community by providing resources, setting policies, and championing initiatives that enhance both academic and extracurricular experiences.
+    <br> <br>
+    At Ack St. Lukes Wote Township, we believe in the power of education to transform lives and create a positive impact on the community. We are committed to cultivating a learning environment that promotes academic excellence, personal growth, and a sense of belonging for every student.
+     Our collaborative efforts are focused on nurturing a vibrant school culture where students, teachers, and families work together towards common goals.
+    <br> <br>
+    Our website serves as a gateway to important information, updates, and resources. We encourage you to explore its various sections to learn more about our programs, events, and the opportunities available to our students. Your involvement and feedback are crucial to our continued success, and we welcome your engagement in shaping the future of our school.
+    <br> <br>
+    Thank you.
+    
+<br> <br>
+<strong>Bishop Emiritus Rt. Rev Joseph M. Kanuku <br>
+    Chairperson - School Board of Management</strong>
+</p>
         </div>
     </div>
     <div id="firstFooter">
@@ -111,8 +81,8 @@ require_once('../partials/headn.php');
               <a id="anchorTag" href="home">Home</a> <br>
               <a id="anchorTag" href="academics">Academics</a> <br>
               <a id="anchorTag" href="departments">Departments</a> <br>
-              <a id="anchorTag" href="history">School History</a> <br> 
-             <a id="anchorTag" href="management">Board of Management</a> <br> 
+              <a id="anchorTag" href="boarding">Boarding</a> <br>
+              <a id="anchorTag" href="history">School History</a> <br>
               <a id="anchorTag" href="sponsor">Sponsor</a>
             </div>
             <div class="col-sm-4">

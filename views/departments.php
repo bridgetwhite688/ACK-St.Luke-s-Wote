@@ -33,16 +33,16 @@ require_once('../partials/headn.php');
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a id="homeButton1" class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a id="homeButton1" class="nav-link active" aria-current="page" href="index">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a id="navButton" class="nav-link active" aria-current="page" href="history.html">School history</a>
+                    <a id="navButton" class="nav-link active" aria-current="page" href="history">School history</a>
                   </li>
                   <li class="nav-item">
-                    <a id="navButton" class="nav-link active" aria-current="page" href="management.html">Board of Management</a>
+                    <a id="navButton" class="nav-link active" aria-current="page" href="management">Board of Management</a>
                   </li>
                   <li class="nav-item">
-                    <a id="navButton" class="nav-link active" aria-current="page" href="contacts.html">Contact Us</a>
+                    <a id="navButton" class="nav-link active" aria-current="page" href="contacts">Contact Us</a>
                   </li>
                   
                 </ul>
@@ -52,7 +52,7 @@ require_once('../partials/headn.php');
           </nav>
     </div>
     <div id="body">
-        <img src="..public/ack/images1/science10.jpg" id="departmentsImage" class="img-fluid" alt="">
+        <img src="../public/ack/images1/science10.jpg" id="departmentsImage" class="img-fluid" alt="">
         <h2>Departments</h2>
         <div class="row">
           <div class="col-sm-4">
@@ -111,12 +111,12 @@ require_once('../partials/headn.php');
         <div id="footer1" class="row">
             <div id="ImportantLinks" class="col-sm-4">
               <h3>Important Links</h3>
-              <a id="anchorTag" href="index.html">Home</a> <br>
-              <a id="anchorTag" href="academics.html">Academics</a> <br> 
-               <a id="anchorTag" href="boarding.html">Boarding</a> <br>
-               <a id="anchorTag" href="history.html">School history</a> <br>
-               <a id="anchorTag" href="management.html">Board of Management</a> <br> 
-              <a id="anchorTag" href="sponsor.html">Sponsor</a>
+              <a id="anchorTag" href="home">Home</a> <br>
+              <a id="anchorTag" href="academics">Academics</a> <br> 
+               <a id="anchorTag" href="boarding">Boarding</a> <br>
+               <a id="anchorTag" href="history">School history</a> <br>
+               <a id="anchorTag" href="management">Board of Management</a> <br> 
+              <a id="anchorTag" href="sponsor">Sponsor</a>
             </div>
             <div class="col-sm-4">
               <h3>Contact Us</h3>
@@ -136,12 +136,7 @@ require_once('../partials/headn.php');
         <p>Copyright &copy; 2024 ACK ST. Luke's Primary School. All rights reserved.</p>
     </div>
    </div> 
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</>
+
 <!-- scripts -->
 <?php include("../partials/scriptn.php"); ?>
 </body>

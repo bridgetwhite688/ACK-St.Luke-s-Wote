@@ -6,19 +6,19 @@ require_once('../helpers/auth.php');
 require_once('../helpers/messages.php');
 require_once('../partials/headn.php');
 ?>
-
 <body>
 	<div id="container">
 		<div id="firstHeader">
 			<div class="row">
-				<div class="col-sm-6">
-					<p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com</p>
-					<p> <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970</p>
-				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-12">
+				<div class="rowFirstHeader">
+				<p></p>
+					<p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt="">ackwotetownship@yahoo.com</p>
+					<p> <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt="">0743865970</p>
 					<p> <img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt="">
 						Wote town along Wote-Malivani road</p>
-					<a id="applyButton" href="register.html"> <button type="button" id="applyButton" class="btn btn-primary">Apply Now!</button></a>
+						<p>P.O BOX 253-90300 Wote-Makueni</p>
+				</div>
 				</div>
 			</div>
 		</div>
@@ -41,29 +41,30 @@ require_once('../partials/headn.php');
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<li><a class="dropdown-item" href="#profile">School Profile</a></li>
 									<li><a class="dropdown-item" href="#visionAndMission">Vision and Mission</a></li>
+									<li><a class="dropdown-item" href="departments">Departments</a></li>
 									<li>
 										<hr class="dropdown-divider">
 									</li>
-									<li><a class="dropdown-item" href="history.html">Shool History</a></li>
-									<li><a class="dropdown-item" href="sponsor.html">Sponsor</a></li>
-									<li><a class="dropdown-item" href="management.html">Board of Management</a></li>
+									<li><a class="dropdown-item" href="history">Shool History</a></li>
+									<li><a class="dropdown-item" href="sponsor">Sponsor</a></li>
+									<li><a class="dropdown-item" href="management">Board of Management</a></li>
 								</ul>
 							</li>
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="#academics">Academics</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="academics.html">Academics</a>
 							</li>
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="#boarding">Boarding</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="boarding.html">Boarding</a>
 							</li>
 							<li class="nav-item">
 								<a id="navButton" class="nav-link active" aria-current="page" href="#newsAndUpdates">News</a>
 							</li>
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="#inquiry">Inquiries</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="contacts.html">Inquiries</a>
 							</li>
-							<!-- <li class="nav-item"> 
-                        <a id="navButton" class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-                       </li> -->
+						 <li class="nav-item"> 
+                        <a id="navButton" class="nav-link active" aria-current="page" href=" ">Success Stories</a>
+                       </li>
 							<li class="nav-item">
 								<a id="navButton" class="nav-link active" aria-current="page" href="#firstFooter">Contact Us</a>
 							</li>
@@ -192,7 +193,6 @@ require_once('../partials/headn.php');
 					</div>
 					<div class="col-md-3">
 						<div class="card">
-							<!-- <img src="../public/ack/https://via.placeholder.com/150" class="card-img-top" alt="..."> -->
 							<div class="card-body">
 								<h5 class="card-title">Motto</h5>
 								<p class="card-text">Strive for Excellence</p>
@@ -340,45 +340,7 @@ require_once('../partials/headn.php');
 			</div>
 
 		</div>
-		<!--  
-		<div id="inquiry">
-			<div class="container mt-5">
-				<h2>Inquiry Form</h2>
-				<form method="post" enctype="multipart/form-data" role="form">
-					<div class="row mb-3">
-						<div class="col">
-							<label for="firstName" class="form-label">First Name</label>
-							<input type="text" class="form-control" required id="firstName" name="user_fname" placeholder="Enter your first name" required>
-						</div>
-						<div class="col">
-							<label for="lastName" class="form-label">Last Name</label>
-							<input type="text" class="form-control" required name="user_lname"  id="lastName" placeholder="Enter your last name" required>
-						</div>
-					</div>
-					<div class="mb-3">
-						<label for="contact" class="form-label">Contact</label>
-						<input type="text" class="form-control" required name="user_phone"  id="contact" placeholder="Enter your contact number" required>
-					</div>
-					
-					<div class="mb-3">
-						<label for="email" class="form-label">Email address</label>
-						<input type="email" class="form-control" required name="user_email"  id="email" placeholder="Enter your email" required>
-					</div>
-
-					<div class="mb-3">
-						<label for="email" class="form-label">Subject</label>
-						<input type="text" class="form-control" required name="inquiry_subject"  id="email" placeholder="Enter your email" required>
-					</div>
-					<div class="mb-3">
-						<label for="message" class="form-label">Message</label>
-						<textarea class="form-control" required name="inquiry_message" id="message" rows="4" placeholder="Enter your message" required></textarea>
-					</div>
-					<button type="submit" id="applyButton" name="sendMassage" class="btn btn-primary">Submit</button>
-				</form>
-			</div>
-		</div>
-		 -->
-		<div id="testimonias">
+		<div id="testimonials">
 			<div id="textCarousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#textCarousel" data-slide-to="0" class="active"></li>
@@ -428,12 +390,12 @@ require_once('../partials/headn.php');
 		<div id="footer1" class="row">
 			<div id="ImportantLinks" class="col-sm-4">
 				<h3>Important Links</h3>
-				<a id="anchorTag" href="academics.html">Academics</a> <br>
-				<a id="anchorTag" href="boarding.html">Boarding</a> <br>
-				<a id="anchorTag" href="departments.html">Departments</a> <br>
-				<a id="anchorTag" href="history.html">School History</a> <br>
-				<a id="anchorTag" href="sponsor.html">Sponsor</a>
-				<a id="anchorTag" href="management.html">Board of Management</a>
+				<a id="anchorTag" href="academics">Academics</a> <br>
+				<a id="anchorTag" href="boarding">Boarding</a> <br>
+				<a id="anchorTag" href="departments">Departments</a> <br>
+				<a id="anchorTag" href="history">School History</a> <br>
+				<a id="anchorTag" href="sponsor">Sponsor</a>
+				<a id="anchorTag" href="management">Board of Management</a>
 			</div>
 			<div class="col-sm-4">
 				<h3>Contact Us</h3>

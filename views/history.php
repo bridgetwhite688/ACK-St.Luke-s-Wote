@@ -34,10 +34,10 @@ require_once('../partials/headn.php');
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a id="homeButton1" class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a id="homeButton1" class="nav-link active" aria-current="page" href="home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a id="navButton" class="nav-link active" aria-current="page" href="contacts.html">Contact Us</a>
+                    <a id="navButton" class="nav-link active" aria-current="page" href="contacts">Contact Us</a>
                   </li>
                   
                 </ul>
@@ -60,7 +60,7 @@ require_once('../partials/headn.php');
                 the school has a population of 700 pupils with 349 boys and 351 girls. The first class eight pupils sat for KCPE in 2003 and had an enrollment of 16 pupils. 
                 The KCPE candidature of the school has continued to grow greatly over the years. In 2006, the candidature increased to 77. In 2009 it grew to 109. 
                 In 2012 it was 127 pupils and 133 candidates in 2015. While in 2016 it was 144 pupils . In 2017 the school has registered 160 pupils for KCPE. To date (2003-2017) a
-                total of 1515 pupils have successfully completed their primary level educcation in the school.
+                total of 1515 pupils have successfully completed their primary level education in the school.
                 <br><br>
                 The school has been performing well in both internal (school based) and external examination(Zonal-National level). It is a notable centre of excellence withing the county and greater
                 Ukambani region. The first class sat for KCPE in 2003 and had a mean score of 378.06. Over the years the school has been producing some of the top scorers in the national examinations.
@@ -216,12 +216,12 @@ require_once('../partials/headn.php');
         <div id="footer1" class="row">
             <div id="ImportantLinks" class="col-sm-4">
               <h3>Important Links</h3>
-              <a id="anchorTag" href="index.html">Home</a> <br>   
-               <a id="anchorTag" href="academics.html">Academics</a> <br>
-              <a id="anchorTag" href="departments.html">Departments</a> <br>
-              <a id="anchorTag" href="boarding.html">Boarding</a> <br> 
-               <a id="anchorTag" href="management.html">Board of Management</a> <br> 
-              <a id="anchorTag" href="sponsor.html">Sponsor</a>
+              <a id="anchorTag" href="index">Home</a> <br>
+              <a id="anchorTag" href="academics">Academics</a> <br>
+              <a id="anchorTag" href="departments">Departments</a> <br>
+              <a id="anchorTag" href="boarding">Boarding</a> <br> 
+               <a id="anchorTag" href="management">Board of Management</a> <br> 
+              <a id="anchorTag" href="sponsor">Sponsor</a>
             </div>
             <div class="col-sm-4">
               <h3>Contact Us</h3>
@@ -241,11 +241,7 @@ require_once('../partials/headn.php');
         <p>Copyright &copy; 2024 ACK ST. Luke's Primary School. All rights reserved.</p>
     </div>
    </div> 
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <!-- scripts -->
 <?php include("../partials/scriptn.php"); ?>
 </body>
-<html/>
+</html>
