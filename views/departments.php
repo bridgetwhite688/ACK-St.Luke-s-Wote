@@ -13,9 +13,9 @@ require_once('../partials/headn.php');
         <div class="col-sm-12">
           <div class="rowFirstHeader">
             <p></p>
-            <p><img src="images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
-          <p>  <img src="images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
-           <p> <img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> 
+            <p><img src="..public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
+          <p>  <img src="..public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
+           <p> <img src="..public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> 
             Wote town along Wote-Malivani road &emsp; &emsp; </p>
            <p> P.O BOX 253-90300 Wote-Makueni</p>
           </div>
@@ -52,63 +52,69 @@ require_once('../partials/headn.php');
           </nav>
     </div>
     <div id="body">
-        <div class="col-sm-12">
-            <p>ACK St. Luke’s Wote Township is proud to offer the 
-              Competency-Based Curriculum (CBC) Kenya, ensuring that 
-              our students receive an education tailored to developing 
-              essential skills and competencies for the 21st century.
-               This curriculum emphasizes holistic
-               development, critical thinking, and practical skills,
-                preparing our students for future academic and personal success.</p>
+        <img src="..public/ack/images1/science10.jpg" id="departmentsImage" class="img-fluid" alt="">
+        <h2>Departments</h2>
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Science Department</h3>
+            <p>The Science Department at ACK ST. Luke's Primary
+               School is dedicated to fostering a strong foundation
+                of scientific knowledge for all students. We offer a
+                 variety of science lessons, experiments, and activities 
+                 to help students develop their critical thinking and problem-solving skills.</p>
           </div>
-            <div class="row">
-              <div class="col-sm-4">
-                <h3>Lower Primary School-Grades 1-3</h3>
-                <img id="schoolImage" src="images1/students10.jpg" class="img-fluid" alt="">
-                <p>At ACK St. Luke’s Wote Township, we provide a 
-                  comprehensive educational program for Grades 1 
-                  through 3. Our curriculum is designed to foster 
-                  a solid academic foundation while developing 
-                  essential skills and competencies. We are 
-                  dedicated to creating a stimulating and supportive 
-                  learning environment that encourages growth, 
-                   curiosity, and a love for learning at every stage of early education.</p>
-              </div>
-              <div class="col-sm-4">
-                <h3>Upper Primary-Grades 4-6</h3>
-                <img id="schoolImage" src="images1/students2.jpg" class="img-fluid" alt="">
-                <p>At ACK St. Luke’s Wote Township, we provide a
-                   comprehensive educational program for Grades 4 
-                   through 6. Our curriculum is designed to foster
-                    a solid academic foundation while developing 
-                    essential skills and competencies. We are
-                     dedicated to creating a stimulating and supportive 
-                  learning environment that encourages growth,
-                   curiosity, and a love for learning at every stage of early education.</p>
-                </div>
-                <div class="col-sm-4">
-                  <h3>Junior Secondary School- Grades 7-9</h3>
-                  <img id="schoolImage" src="images1/students12.jpg" class="img-fluid" alt="">
-                  <p>ACK St. Luke’s Wote Township is proud to 
-                    offer education for CBC Junior Secondary 
-                    School. Our program is designed to build 
-                    on the foundational skills developed in
-                     primary education, focusing on deeper 
-                     knowledge, critical thinking, and
-                      practical skills. We are committed to
-                     providing a supportive and dynamic
-                     learning environment that prepares students 
-                     for future academic and personal success.</p>
-                  </div>
-            </div>
+          <div class="col-sm-4">
+            <h3>Mathematics Department</h3>
+            <p>The Mathematics Department at ACK ST. Luke's 
+              Primary School is committed to providing students
+               with a strong foundation of mathematical skills.
+                We offer a variety of mathematics lessons, 
+                experiments, and activities to help students
+                 develop their critical thinking and problem-solving skills.</p>
+          </div>
+          <div class="col-sm-4">
+            <h3>ICT Department</h3>
+            <p>The ICT Department at ACK ST. Luke's Primary School is 
+              dedicated to providing students with a strong foundation
+               of computer skills. We offer a variety of computer lessons,
+                experiments, and activities to help students develop their 
+                critical thinking and problem-solving skills.</p>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Guidance and Counselling Department</h3>
+          <p>The Guidance and Counselling Department at ACK ST. 
+            Luke's Primary School is dedicated to providing students
+             with a strong foundation of counselling skills. We offer a 
+             variety of counselling services, including speech therapy,
+              counselling, and psychotherapy to help students develop 
+              their emotional and mental well-being.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Sports</h3>
+          <p>The Sports Department at ACK ST. Luke's Primary School
+             is dedicated to providing students with a strong foundation 
+             of sports skills. We offer a variety of sports lessons,
+              experiments, and activities to help students develop
+               their critical thinking and problem-solving skills.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Clubs and Movements</h3>
+          <p>The clubs and Movements department at ACK ST.Luke's Primary School 
+            allows students to form and participate in clubs activities. Some of the Clubs
+            at our school are debating, scouting, music, environment, red cross, young developers club among others.
+          </p>
+        </div>
     </div>
     <div id="firstFooter">
         <div id="footer1" class="row">
             <div id="ImportantLinks" class="col-sm-4">
               <h3>Important Links</h3>
               <a id="anchorTag" href="index.html">Home</a> <br>
-              <a id="anchorTag" href="departments.html">Departments</a> <br> 
+              <a id="anchorTag" href="academics.html">Academics</a> <br> 
                <a id="anchorTag" href="boarding.html">Boarding</a> <br>
+               <a id="anchorTag" href="history.html">School history</a> <br>
                <a id="anchorTag" href="management.html">Board of Management</a> <br> 
               <a id="anchorTag" href="sponsor.html">Sponsor</a>
             </div>
@@ -116,7 +122,7 @@ require_once('../partials/headn.php');
               <h3>Contact Us</h3>
               <p>Call Us on 0743865970</p>
               <h3>Visit Us</h3>
-             <p><img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
+             <p><img src="..public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
 
             </div>
             <div class="col-sm-4">
@@ -134,8 +140,9 @@ require_once('../partials/headn.php');
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<body>
+</body>
+</>
 <!-- scripts -->
 <?php include("../partials/scriptn.php"); ?>
 </body>
-</h>
+</html>
