@@ -13,9 +13,9 @@ require_once('../partials/headn.php');
         <div class="col-sm-12">
           <div class="rowFirstHeader">
             <p></p>
-            <p><img src="images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
-          <p>  <img src="images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
-           <p> <img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> 
+            <p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
+          <p>  <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
+           <p> <img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> 
             Wote town along Wote-Malivani road &emsp; &emsp; </p>
            <p> P.O BOX 253-90300 Wote-Makueni</p>
           </div>
@@ -64,7 +64,7 @@ require_once('../partials/headn.php');
             <div class="row">
               <div class="col-sm-4">
                 <h3>Lower Primary School-Grades 1-3</h3>
-                <img id="schoolImage" src="images1/students10.jpg" class="img-fluid" alt="">
+                <img id="schoolImage" src="../public/ack/images1/students10.jpg" class="img-fluid" alt="">
                 <p>At ACK St. Luke’s Wote Township, we provide a 
                   comprehensive educational program for Grades 1 
                   through 3. Our curriculum is designed to foster 
@@ -76,7 +76,7 @@ require_once('../partials/headn.php');
               </div>
               <div class="col-sm-4">
                 <h3>Upper Primary-Grades 4-6</h3>
-                <img id="schoolImage" src="images1/students2.jpg" class="img-fluid" alt="">
+                <img id="schoolImage" src="../public/ack/images1/students2.jpg" class="img-fluid" alt="">
                 <p>At ACK St. Luke’s Wote Township, we provide a
                    comprehensive educational program for Grades 4 
                    through 6. Our curriculum is designed to foster
@@ -88,7 +88,7 @@ require_once('../partials/headn.php');
                 </div>
                 <div class="col-sm-4">
                   <h3>Junior Secondary School- Grades 7-9</h3>
-                  <img id="schoolImage" src="images1/students12.jpg" class="img-fluid" alt="">
+                  <img id="schoolImage" src="../public/ack/images1/students12.jpg" class="img-fluid" alt="">
                   <p>ACK St. Luke’s Wote Township is proud to 
                     offer education for CBC Junior Secondary 
                     School. Our program is designed to build 
@@ -116,7 +116,7 @@ require_once('../partials/headn.php');
               <h3>Contact Us</h3>
               <p>Call Us on 0743865970</p>
               <h3>Visit Us</h3>
-             <p><img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
+             <p><img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
 
             </div>
             <div class="col-sm-4">
