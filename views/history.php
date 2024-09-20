@@ -13,9 +13,9 @@ require_once('../partials/headn.php');
             <div class="col-sm-12">
               <div class="rowFirstHeader">
                 <p></p>
-                <p><img src="images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
-              <p>  <img src="images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
-               <p> <img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> 
+                <p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
+              <p>  <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
+               <p> <img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> 
                 Wote town along Wote-Malivani road &emsp; &emsp; </p>
                <p> P.O BOX 253-90300 Wote-Makueni</p>
               </div>
@@ -47,7 +47,7 @@ require_once('../partials/headn.php');
           </nav>
     </div>
     <div id="body">
-        <img src="images1/admin.jpg" class="img-fluid" alt="">
+        <img src="../public/ack/images1/admin.jpg" class="img-fluid" alt="">
         <div class="col-sm-12">
             <h2>School History.</h2>
             <p>ACK Wote Township Boarding Primary school is a public boarding primary school which was started in 1996 under the sponsorship of the Anglican
@@ -216,7 +216,8 @@ require_once('../partials/headn.php');
         <div id="footer1" class="row">
             <div id="ImportantLinks" class="col-sm-4">
               <h3>Important Links</h3>
-              <a id="anchorTag" href="index.html">Home</a> <br>
+              <a id="anchorTag" href="index.html">Home</a> <br>   
+               <a id="anchorTag" href="academics.html">Academics</a> <br>
               <a id="anchorTag" href="departments.html">Departments</a> <br>
               <a id="anchorTag" href="boarding.html">Boarding</a> <br> 
                <a id="anchorTag" href="management.html">Board of Management</a> <br> 
@@ -226,7 +227,7 @@ require_once('../partials/headn.php');
               <h3>Contact Us</h3>
               <p>Call Us on 0743865970</p>
               <h3>Visit Us</h3>
-             <p><img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
+             <p><img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
 
             </div>
             <div class="col-sm-4">
@@ -247,4 +248,4 @@ require_once('../partials/headn.php');
 <!-- scripts -->
 <?php include("../partials/scriptn.php"); ?>
 </body>
-</>
+<html/>
