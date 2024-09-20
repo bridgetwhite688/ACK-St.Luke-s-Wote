@@ -340,44 +340,6 @@ require_once('../partials/headn.php');
 			</div>
 
 		</div>
-		<!--  
-		<div id="inquiry">
-			<div class="container mt-5">
-				<h2>Inquiry Form</h2>
-				<form method="post" enctype="multipart/form-data" role="form">
-					<div class="row mb-3">
-						<div class="col">
-							<label for="firstName" class="form-label">First Name</label>
-							<input type="text" class="form-control" required id="firstName" name="user_fname" placeholder="Enter your first name" required>
-						</div>
-						<div class="col">
-							<label for="lastName" class="form-label">Last Name</label>
-							<input type="text" class="form-control" required name="user_lname"  id="lastName" placeholder="Enter your last name" required>
-						</div>
-					</div>
-					<div class="mb-3">
-						<label for="contact" class="form-label">Contact</label>
-						<input type="text" class="form-control" required name="user_phone"  id="contact" placeholder="Enter your contact number" required>
-					</div>
-					
-					<div class="mb-3">
-						<label for="email" class="form-label">Email address</label>
-						<input type="email" class="form-control" required name="user_email"  id="email" placeholder="Enter your email" required>
-					</div>
-
-					<div class="mb-3">
-						<label for="email" class="form-label">Subject</label>
-						<input type="text" class="form-control" required name="inquiry_subject"  id="email" placeholder="Enter your email" required>
-					</div>
-					<div class="mb-3">
-						<label for="message" class="form-label">Message</label>
-						<textarea class="form-control" required name="inquiry_message" id="message" rows="4" placeholder="Enter your message" required></textarea>
-					</div>
-					<button type="submit" id="applyButton" name="sendMassage" class="btn btn-primary">Submit</button>
-				</form>
-			</div>
-		</div>
-		 -->
 		<div id="testimonias">
 			<div id="textCarousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
