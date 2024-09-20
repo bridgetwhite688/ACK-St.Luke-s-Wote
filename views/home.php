@@ -6,21 +6,23 @@ require_once('../helpers/auth.php');
 require_once('../helpers/messages.php');
 require_once('../partials/headn.php');
 ?>
-
 <body>
 	<div id="container">
 		<div id="firstHeader">
 			<div class="row">
-				<div class="col-sm-6">
-					<p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com</p>
-					<p> <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970</p>
-				</div>
-				<div class="col-sm-6">
-					<p> <img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt="">
-						Wote town along Wote-Malivani road</p>
-					<a id="applyButton" href="register.html"> <button type="button" id="applyButton" class="btn btn-primary">Apply Now!</button></a>
-				</div>
+			<div class="col-sm-12">
+			<div class="rowFirstHeader">
+				<p></p>
+				<p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com</p>
+				<p>  <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970</p>
+				<p> <img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> 
+                  Wote town along Wote-Malivani road</p>
+				<p> P.O BOX 253-90300 Wote-Makueni</p>
 			</div>
+
+			</div>	
+			</div>
+			
 		</div>
 		<div id="secondHeader">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -41,8 +43,9 @@ require_once('../partials/headn.php');
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<li><a class="dropdown-item" href="#profile">School Profile</a></li>
 									<li><a class="dropdown-item" href="#visionAndMission">Vision and Mission</a></li>
+									<li><a class="dropdown-item" href="departments.html">Departments</a></li>
 									<li>
-										<hr class="dropdown-divider">
+									<hr class="dropdown-divider">
 									</li>
 									<li><a class="dropdown-item" href="history.html">Shool History</a></li>
 									<li><a class="dropdown-item" href="sponsor.html">Sponsor</a></li>
@@ -50,22 +53,22 @@ require_once('../partials/headn.php');
 								</ul>
 							</li>
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="#academics">Academics</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="academics.html">Academics</a>
 							</li>
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="#boarding">Boarding</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="boarding.html">Boarding</a>
 							</li>
 							<li class="nav-item">
 								<a id="navButton" class="nav-link active" aria-current="page" href="#newsAndUpdates">News</a>
 							</li>
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="#inquiry">Inquiries</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="contacts.html">Inquiries</a>
 							</li>
-							<!-- <li class="nav-item"> 
-                        <a id="navButton" class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-                       </li> -->
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="#firstFooter">Contact Us</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="contacts.html">Success Stories</a>
+							</li>
+							<li class="nav-item">
+								<a id="navButton" class="nav-link active" aria-current="page" href="#testimonials">Contact Us</a>
 							</li>
 							<li class="nav-item">
 								<a id="navButton" class="nav-link active" aria-current="page" href="login">Login</a>
@@ -423,5 +426,4 @@ require_once('../partials/headn.php');
 	<?php include("../partials/scriptn.php"); ?>
 
 </body>
-
 </html>
