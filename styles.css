@@ -164,6 +164,16 @@ h3{
     flex-direction: row;
     padding-left: 10px;
 }
+#theH1{
+    padding: 10px;
+}
+#intakeImage{
+    /* width: 600px; */
+    /* height: 300px; */
+    padding: 10px;
+    border-radius: 10px;
+    /* padding-left: 100pcpx;0px; */
+}
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
