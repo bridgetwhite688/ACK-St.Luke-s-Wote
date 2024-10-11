@@ -14,13 +14,13 @@
 				<form class="needs-validation" method="post" enctype="multipart/form-data" role="form">
 					<div class="row">
 						<div class="form-group col-sm-12 col-lg-6 col-xl-6">
-							<label class="form-control-label">Full names (as they appear in National ID) <span class="text-danger">*</span></label>
+							<label class="form-control-label">Full names<span class="text-danger">*</span></label>
 							<div class="input-group input-group-merge">
-								<input type="text" required name="user_name" class="form-control">
+								<input type="text" required name="user_names" class="form-control">
 							</div>
 						</div>
 						<div class="form-group col-sm-12 col-lg-6 col-xl-6">
-							<label class="form-control-label">Personal/ID Number <span class="text-danger">*</span></label>
+							<label class="form-control-label">ID Number <span class="text-danger">*</span></label>
 							<div class="input-group input-group-merge">
 								<input type="text" name="user_personal_number" class="form-control">
 							</div>

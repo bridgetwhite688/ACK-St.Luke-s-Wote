@@ -1,7 +1,11 @@
 <?php
 
 /* Database Connection */
-
+// $dbuser = "ackstlu2_ndundastevn"; /* Database Username */
+// $dbpass = "2R5k!t1:4CtrJQ"; /* Database Username Password */
+// $host = "localhost"; /* Database Host */
+// $db = "ackstlu2_ack";  /* Database Name */
+// $mysqli = new mysqli($host, $dbuser, $dbpass, $db); /* Connection Function */
 
 $dbuser = "root"; /* Database Username */
 $dbpass = ""; /* Database Username Password */

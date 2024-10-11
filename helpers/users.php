@@ -56,13 +56,12 @@ if (isset($_POST['UpdatePasswords'])) {
 
 /* Add User */
 if (isset($_POST['Add_User'])) {
-	// dd($_POST);
-    $user_names = mysqli_real_escape_string($mysqli, $_POST['user_name']);
+	//dd($_POST);
+    $user_names = mysqli_real_escape_string($mysqli, $_POST['user_names']);
     $user_email = mysqli_real_escape_string($mysqli, $_POST['user_email']);
-    $user_password =  sha1(md5(mysqli_real_escape_string($mysqli, 'Makueni102')));
+    $user_password =  sha1(md5('Makueni102'));
     $user_phone_number = mysqli_real_escape_string($mysqli, $_POST['user_phone_number']);
-    $user_access_level =   mysqli_real_escape_string($mysqli, $_POST['user_access_level']);
-    $user_ward_id =   mysqli_real_escape_string($mysqli, $_POST['user_ward_id']);
+    $user_access_level =  'System Administrator';
     $user_personal_number =   mysqli_real_escape_string($mysqli, $_POST['user_personal_number']);
 
     /* Prevent Double Entries */
@@ -70,11 +69,11 @@ if (isset($_POST['Add_User'])) {
     if (mysqli_num_rows($check_user) > 0) {
         $err = "User Already Exists";
     } else {
-        if (mysqli_query($mysqli, "INSERT INTO users (user_names, user_email, user_password, user_phone_number, user_access_level, user_ward_id, user_personal_number) 
-            VALUES ('{$user_names}', '{$user_email}', '{$user_password}', '{$user_phone_number}', '{$user_access_level}', '{$user_ward_id}', '{$user_personal_number}')")) {
+        if (mysqli_query($mysqli, "INSERT INTO users (user_names, user_email, user_password, user_phone_number, user_access_level, user_personal_number) 
+            VALUES ('{$user_names}', '{$user_email}', '{$user_password}', '{$user_phone_number}', '{$user_access_level}', '{$user_personal_number}')")) {
             $success = "User Added Successfully";
             /* Welcome Email */
-            include('../mailers/staff_welcome.php');
+            include('../mailers/welcome.php');
         } else {
             $err = "Error Adding User";
         }
