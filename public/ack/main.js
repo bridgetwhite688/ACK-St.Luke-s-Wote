@@ -17,3 +17,14 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
 }
+document.querySelectorAll('.nav-item.dropdown').forEach(function (dropdown) {
+  dropdown.addEventListener('mouseover', function () {
+    let dropdownMenu = this.querySelector('.dropdown-menu');
+    dropdownMenu.classList.add('show');
+  });
+
+  dropdown.addEventListener('mouseout', function () {
+    let dropdownMenu = this.querySelector('.dropdown-menu');
+    dropdownMenu.classList.remove('show');
+  });
+});

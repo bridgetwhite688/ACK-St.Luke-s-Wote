@@ -8,5 +8,5 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
 }
 $uri .= $_SERVER['HTTP_HOST'];
 /* Redirect To Index Under Views */
-header('Location: ' . $uri . '/ack_school/views/home');
+header('Location: ' . $uri . '/ack/views/index');
 exit;

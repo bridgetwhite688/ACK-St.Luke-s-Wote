@@ -18,8 +18,8 @@ while ($mailer = $res->fetch_object()) {
 
         $mail = new PHPMailer\PHPMailer\PHPMailer();
         $mail->setFrom($mailer->mailer_mail_from_email);
-        $mail->addAddress($user_email);
-        $mail->FromName = $user_email;
+        $mail->addAddress('ndundastevn@gmailcom');
+        $mail->FromName = $mailer->mailer_mail_from_name;
         $mail->isHTML(true);
         $mail->IsSMTP();
         $mail->SMTPKeepAlive = true; //SMTP connection will not close after each email sent, reduces SMTP overhead
@@ -29,7 +29,7 @@ while ($mailer = $res->fetch_object()) {
         $mail->Port = $mailer->mailer_port;
         $mail->Username = $mailer->mailer_username;
         $mail->Password = $mailer->mailer_password;
-        $mail->Subject = $inquiry_subject;
+        $mail->Subject = 'Equiy form ACK website';
         /* Custom Mail Body */
         $mail->Body = '
         <!doctype html>
