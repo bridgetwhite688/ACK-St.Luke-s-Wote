@@ -31,7 +31,7 @@ require('../functions/analytic.php');
 	<div class="container-fluid mt-4">
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-12">
-				<a href="ward_revenue_target" class="text-dark">
+				<a href="" class="text-dark">
 					<div class="info-box">
 						<span class="info-box-icon bg-success"><i class="fa fa-users"></i></span>
 
@@ -48,7 +48,7 @@ require('../functions/analytic.php');
 			</div>
 			<!-- /.col -->
 			<div class="col-md-6 col-sm-6 col-12">
-				<a href="ward_collections" class="text-dark">
+				<a href="" class="text-dark">
 
 					<div class="info-box">
 						<span class="info-box-icon bg-success"><i class="fas fa-question"></i></span>

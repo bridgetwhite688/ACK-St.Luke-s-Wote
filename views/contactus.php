@@ -14,9 +14,9 @@ require_once('../partials/headf.php');
 				<div class="col-sm-12">
 					<div class="rowFirstHeader">
 						<p></p>
-						<p><img src="images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
-						<p> <img src="images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
-						<p> <img src="images1/location1.webp" id="svg" class="img-fluid" alt="">
+						<p><img src="../public/ack/images1/envelope svg.png" id="svg" class="img-fluid" alt=""> ackwotetownship@yahoo.com &emsp; &emsp;</p>
+						<p> <img src="../public/ack/images1/call svg.png" id="svg" class="img-fluid" alt=""> 0743865970 &emsp; &emsp;</p>
+						<p> <img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt="">
 							Wote town along Wote-Malivani road &emsp; &emsp; </p>
 						<p> P.O BOX 253-90300 Wote-Makueni</p>
 					</div>
@@ -34,14 +34,14 @@ require_once('../partials/headf.php');
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 							<li class="nav-item">
-								<a id="homeButton1" class="nav-link active" aria-current="page" href="index.html">Home</a>
+								<a id="homeButton1" class="nav-link active" aria-current="page" href="index">Home</a>
 							</li>
 
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="history.html">School history</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="history">School history</a>
 							</li>
 							<li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="management.html">Board of Management</a>
+								<a id="navButton" class="nav-link active" aria-current="page" href="management">Board of Management</a>
 							</li>
 
 
@@ -112,17 +112,17 @@ require_once('../partials/headf.php');
 			<div id="footer1" class="row">
 				<div id="ImportantLinks" class="col-sm-4">
 					<h3>Important Links</h3>
-					<a id="anchorTag" href="index.html">Home</a> <br>
-					<a id="anchorTag" href="departments.html">Departments</a> <br>
-					<a id="anchorTag" href="boarding.html">Boarding</a> <br>
-					<a id="anchorTag" href="management.html">Board of Management</a> <br>
-					<a id="anchorTag" href="sponsor.html">Sponsor</a>
+					<a id="anchorTag" href="index">Home</a> <br>
+					<a id="anchorTag" href="departments">Departments</a> <br>
+					<a id="anchorTag" href="boarding">Boarding</a> <br>
+					<a id="anchorTag" href="management">Board of Management</a> <br>
+					<a id="anchorTag" href="sponsor">Sponsor</a>
 				</div>
 				<div class="col-sm-4">
 					<h3>Contact Us</h3>
 					<p>Call Us on 0743865970</p>
 					<h3>Visit Us</h3>
-					<p><img src="images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
+					<p><img src="../public/ack/images1/location1.webp" id="svg" class="img-fluid" alt=""> Wote town along Wote Malivani road</p>
 
 				</div>
 				<div class="col-sm-4">

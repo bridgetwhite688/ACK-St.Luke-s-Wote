@@ -59,28 +59,11 @@
 <!-- bootstrap color picker -->
 <script src="../public/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
 <script>
-  $(function() {
+  $(function () {
     $("#example1").DataTable({
-      "responsive": true,
-      "lengthChange": false,
-      "autoWidth": false,
-      "pageLength": 50,
-      "buttons": [{
-        extend: 'pdf',
-        text: 'Export to PDF',
-        title: 'Custom PDF Title', // Set your custom title here
-        exportOptions: {
-          columns: ':visible' // Export only visible columns
-        },
-        customize: function(doc) {
-          // Customize the PDF document here
-          doc.content[1].table.widths = ['*', '*', '*', '*']; // Adjust column widths
-          doc.content[0].text = 'Makueni County, Revenue Reporting Tool'; // Set a custom header
-          doc.content[0].style = 'headerStyle'; // Apply a style if defined
-        }
-      }]
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-
     $('#example2').DataTable({
       "paging": true,
       "lengthChange": false,
@@ -90,12 +73,6 @@
       "autoWidth": false,
       "responsive": true,
     });
-
-  });
-  $(document).ready(function() {
-    $('.data_table').DataTable({
-      "pageLength": 50
-    }).css('white-space', 'initial');
   });
 </script>
 

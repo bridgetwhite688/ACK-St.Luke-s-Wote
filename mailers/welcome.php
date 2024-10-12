@@ -132,7 +132,7 @@ while ($mailer = $res->fetch_object()) {
                                         </tr>
                                         <tr>
                                             <td style="padding:0 35px;">
-                                                <img src=""  alt="School logo">
+                                                <img src="https://ackstlukeswote.sc.ke/views/school logo.jpg"  alt="School logo">
                                                 <h4 style="color:#1e1e2d; font-weight:500; margin:0;font-size:39px;font-family:"Rubik",sans-serif;">
                                                     Ack st Lukes Wote <br> 
                                                    
@@ -222,7 +222,7 @@ while ($mailer = $res->fetch_object()) {
                                             </tr>
                                             <tr>
                                                 <td style="padding:0 35px;">
-                                                    <img src=""  alt="school logo">
+                                                    <img src="https://ackstlukeswote.sc.ke/views/school logo.jpg"  alt="school logo">
                                                     <h4 style="color:#1e1e2d; font-weight:500; margin:0;font-size:39px;font-family:"Rubik",sans-serif;">
                                                         ACK ST Lukes Wote<br> 
                                                        

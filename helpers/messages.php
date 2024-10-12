@@ -8,8 +8,8 @@ if (isset($_POST['sendMassage'])) {
 	unset($_POST['sendMassage']);
 
 	//dd($_POST);
-	// $address_mail = "ndundastevn@gmail.com";
-	$address_mail = "bridgetwhite440@gmail.com";
+	 $address_mail = "ndundastevn@gmail.com";
+	//$address_mail = "bridgetwhite440@gmail.com";
 	$user_fname = mysqli_real_escape_string($mysqli, $_POST['user_fname']);
 	$user_lname = mysqli_real_escape_string($mysqli, $_POST['user_lname']);
 	$user_email = mysqli_real_escape_string($mysqli, $_POST['user_email']);

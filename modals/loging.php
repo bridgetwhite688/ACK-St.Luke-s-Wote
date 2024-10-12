@@ -37,10 +37,7 @@
                         <!-- /.col -->
                     </div>
                 </form>
-                <hr>
-                <p class="mb-1 text-center">
-					Forgot password <a href="">reset</a>
-                </p>
+               
 			</div>
 		</div>
     </div>
