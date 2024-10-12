@@ -5,7 +5,7 @@
 			<a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
 		</li>
 		<li class="nav-item d-none d-sm-inline-block">
-			<h5 class="pt-2">ADMIN LTE</h5>
+			<h5 class="pt-2">ACK St.Luke's Wote Township</h5>
 		</li>
 
 	</ul>

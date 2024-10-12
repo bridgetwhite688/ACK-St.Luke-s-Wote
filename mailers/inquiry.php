@@ -1,4 +1,69 @@
 <?php
+/*
+ *   Crafted On Sun Apr 07 2024
+ *   Author Martin Mbithi (martin.mbithi@makueni.go.ke)
+ * 
+ *   www.makueni.go.ke
+ *   info@makueni.go.ke
+ *
+ *
+ *   The Government of Makueni County Applications Development Section End User License Agreement
+ *   Copyright (c) 2023 Government of Makueni County 
+ *
+ *
+ *   1. GRANT OF LICENSE 
+ *   GoMC Applications Development Section hereby grants to you (an individual) the revocable, personal, non-exclusive, and nontransferable right to
+ *   install and activate this system on one computer solely for your official and non-commercial use,
+ *   unless you have purchased a commercial license from GoMC Applications Development Section. Sharing this Software with other individuals, 
+ *   or allowing other individuals to view the contents of this Software, is in violation of this license.
+ *   You may not make the Software available on a network, or in any way provide the Software to multiple users
+ *   unless you have first purchased at least a multi-user license from GoMC Applications Development Section
+ *
+ *   2. COPYRIGHT 
+ *   The Software is owned by GoMC Applications Development Section and protected by copyright law and international copyright treaties. 
+ *   You may not remove or conceal any proprietary notices, labels or marks from the Software.
+ *
+ *
+ *   3. RESTRICTIONS ON USE
+ *   You may not, and you may not permit others to
+ *   (a) reverse engineer, decompile, decode, decrypt, disassemble, or in any way derive source code from, the Software;
+ *   (b) modify, distribute, or create derivative works of the Software;
+ *   (c) copy (other than one back-up copy), distribute, publicly display, transmit, sell, rent, lease or 
+ *   otherwise exploit the Software. 
+ *
+ *
+ *   4. TERM
+ *   This License is effective until terminated. 
+ *   You may terminate it at any time by destroying the Software, together with all copies thereof.
+ *   This License will also terminate if you fail to comply with any term or condition of this Agreement.
+ *   Upon such termination, you agree to destroy the Software, together with all copies thereof.
+ *
+ *
+ *   5. NO OTHER WARRANTIES. 
+ *   GoMC APPLICATIONS DEVELOPMENT SECTION DOES NOT WARRANT THAT THE SOFTWARE IS ERROR FREE. 
+ *   GoMC APPLICATIONS DEVELOPMENT SECTION SOFTWARE DISCLAIMS ALL OTHER WARRANTIES WITH RESPECT TO THE SOFTWARE, 
+ *   EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, 
+ *   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. 
+ *   SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS
+ *   ON HOW LONG AN IMPLIED WARRANTY MAY LAST, OR THE EXCLUSION OR LIMITATION OF 
+ *   INCIDENTAL OR CONSEQUENTIAL DAMAGES,
+ *   SO THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU. 
+ *   THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS AND YOU MAY ALSO 
+ *   HAVE OTHER RIGHTS WHICH VARY FROM JURISDICTION TO JURISDICTION.
+ *
+ *
+ *   6. SEVERABILITY
+ *   In the event of invalidity of any provision of this license, the parties agree that such invalidity shall not
+ *   affect the validity of the remaining portions of this license.
+ *
+ *
+ *   7. NO LIABILITY FOR CONSEQUENTIAL DAMAGES IN NO EVENT SHALL GoMC APPLICATIONS DEVELOPMENT SECTION OR ITS SUPPLIERS BE LIABLE TO YOU FOR ANY
+ *   CONSEQUENTIAL, SPECIAL, INCIDENTAL OR INDIRECT DAMAGES OF ANY KIND ARISING OUT OF THE DELIVERY, PERFORMANCE OR 
+ *   USE OF THE SOFTWARE, EVEN IF GoMC APPLICATIONS DEVELOPMENT SECTION HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES
+ *   IN NO EVENT WILL GoMC APPLICATIONS DEVELOPMENT SECTION LIABILITY FOR ANY CLAIM, WHETHER IN CONTRACT 
+ *   TORT OR ANY OTHER THEORY OF LIABILITY, EXCEED THE LICENSE FEE PAID BY YOU, IF ANY.
+ *
+ */
 
 require_once('../config/config.php');
 /* Mailer Configurations */
@@ -18,7 +83,7 @@ while ($mailer = $res->fetch_object()) {
 
         $mail = new PHPMailer\PHPMailer\PHPMailer();
         $mail->setFrom($mailer->mailer_mail_from_email);
-        $mail->addAddress('ndundastevn@gmailcom');
+        $mail->addAddress($address_mail);
         $mail->FromName = $mailer->mailer_mail_from_name;
         $mail->isHTML(true);
         $mail->IsSMTP();
@@ -29,7 +94,7 @@ while ($mailer = $res->fetch_object()) {
         $mail->Port = $mailer->mailer_port;
         $mail->Username = $mailer->mailer_username;
         $mail->Password = $mailer->mailer_password;
-        $mail->Subject = 'Equiy form ACK website';
+        $mail->Subject = $inquiry_subject;
         /* Custom Mail Body */
         $mail->Body = '
         <!doctype html>
@@ -67,20 +132,32 @@ while ($mailer = $res->fetch_object()) {
                                         </tr>
                                         <tr>
                                             <td style="padding:0 35px;">
-                                                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fillustration%2Fschool-logo.html&psig=AOvVaw3zXf88FlFU0CRSPny1g7g6&ust=1726110803787000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOD9tYD2uYgDFQAAAAAdAAAAABAE"  alt="logo">
+                                                <img src=""  alt="School logo">
                                                 <h4 style="color:#1e1e2d; font-weight:500; margin:0;font-size:39px;font-family:"Rubik",sans-serif;">
-                                                   ACK St.Lukes Wote Township<br> 
-                                                    A Massage of Inquiry <br> 
+                                                    Ack st Lukes Wote <br> 
+                                                   
                                                 </h4>
                                                 <span
                                                     style="display:inline-block; vertical-align:middle; margin:29px 0 26px; border-bottom:1px solid #cecece; width:100px;"></span>
                                                 <p style="color:#455056; font-size:15px;line-height:24px; margin:0;" align="justify">
-                                                        From, ' . $user_fname . $user_lname . '.<br>
-                                                        Email, ' . $user_email . '.<br>
-                                                        Phone, ' . $user_phone .'.<br>
-														<b> Subject; '. $inquiry_subject .' </b> <br>
-														' . $inquiry_message . '                                                        
-                                                </p>                                                
+                                                    ' . $inquiry_message . '
+                                                </p>
+												
+                                                <p>
+
+                                                        From: ' . $user_fname . ' ' . $user_lname . ' <br>
+                                                        Email: ' . $user_email . ' <br>
+                                                        Phone: ' . $user_phone . ' <br>
+                                                </p>
+                                                <p align="center" style="color:#455056; font-size:15px;line-height:24px; margin:0;">
+                                                <br>
+                                                Yours Sincerely<br>
+                                                    <b>
+                                                        ACK st Lukes Wote <br>
+                                                        <i>Official School Moto</i>
+                                                    <br>
+                                                </b>
+                                                </p>
                                             </td>
                                         </tr>
                                         <tr>
@@ -145,21 +222,33 @@ while ($mailer = $res->fetch_object()) {
                                             </tr>
                                             <tr>
                                                 <td style="padding:0 35px;">
-                                                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fillustration%2Fschool-logo.html&psig=AOvVaw3zXf88FlFU0CRSPny1g7g6&ust=1726110803787000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOD9tYD2uYgDFQAAAAAdAAAAABAE"  alt="logo">
+                                                    <img src=""  alt="school logo">
                                                     <h4 style="color:#1e1e2d; font-weight:500; margin:0;font-size:39px;font-family:"Rubik",sans-serif;">
-                                                        ACK St.Lukes Wote Township<br> 
-                                                        A Massage of Inquiry <br>
+                                                        ACK ST Lukes Wote<br> 
+                                                       
                                                     </h4>
                                                     <span
                                                         style="display:inline-block; vertical-align:middle; margin:29px 0 26px; border-bottom:1px solid #cecece; width:100px;"></span>
                                                     <p style="color:#455056; font-size:15px;line-height:24px; margin:0;" align="justify">
-                                                        From, ' . $user_fname . $user_lname . '.<br>
-                                                        Email, ' . $user_email . '.<br>
-                                                        Phone, ' . $user_phone .'.<br>
-														<b> Subject; '. $inquiry_subject .' </b><br>
-														' . $inquiry_message . '                                                        
+                                                        Greetings, ' . $user_email . '.<br>
+                                                        Welcome to ACK Website
+                                                        Your account has been set up successfuly. You can now login to the ' . $user_email . ' portal using the following credentials <br>
+                                                        <b>
+
+                                                            Login url: <a target="_blank" href="https://ack.com"></a> <br>
+                                                            Login email: ' . $user_email . ' <br>
+                                                            Login password: ACK@2024 <br>
+                                                        </b>
                                                     </p>
-                                                   
+                                                    <p align="center" style="color:#455056; font-size:15px;line-height:24px; margin:0;">
+                                                    <br>
+                                                    Yours Sincerely<br>
+                                                        <b>
+                                                            ACK ST Lukes Wote <br>
+                                                            <i>School moto</i>
+                                                        <br>
+                                                    </b>
+                                                    </p>
                                                 </td>
                                             </tr>
                                             <tr>

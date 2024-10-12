@@ -1,9 +1,11 @@
-<aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: #124491 ">
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
 	<!-- Brand Logo -->
-	<a href="index3.html" class="brand-link">
-		<img src="../public/dist/img/AdminLTELogo.png" alt="makueni Logo" class="brand-image" style="opacity: .8">
-		<span class="brand-text font-weight-light">Admin</span>
-	</a>
+	 <div class="align-content-center">
+		 <a href="" class="brand-link">
+			 <img src="../public/ack/images1/school logo.jpg" alt="makueni Logo" class="brand-image" style="opacity: .8">
+			 <span class="brand-text font-weight-light">ACK</span>
+		 </a>
+	 </div>
 
 	<!-- Sidebar -->
 	<div class="sidebar">
@@ -76,7 +78,7 @@
                 </li>
 			
 				<li class="nav-item">
-					<a class="nav-link" data-toggle="modal" data-target="#end_session">
+					<a class="nav-link" data-toggle="modal" data-target="#end_session" href="">
 						<i class="nav-icon fas fa-power-off text-success"></i>
 						<p>
 							Logout

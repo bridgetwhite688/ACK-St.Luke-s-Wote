@@ -1,5 +1,6 @@
 <?php
 require('../config/config.php');
+require('../functions/analytic.php');
 
 
 ?>
@@ -14,7 +15,7 @@ require('../config/config.php');
 					<h1 class="m-0 text-dark">
 						<?php echo $greeting . ', ' . $_SESSION['user_names'] ?>
 					</h1>
-					<small>AdminLTE supper template</small>
+					<small>Welcome to ACK ST. Luke's Wote</small>
 				</div><!-- /.col -->
 				<div class="col-sm-6">
 					<ol class="breadcrumb float-sm-right">
@@ -31,14 +32,13 @@ require('../config/config.php');
 		<div class="row">
 			<div class="col-md-6 col-sm-6 col-12">
 				<a href="ward_revenue_target" class="text-dark">
-				<!-- <a href="ward_revenue_target?month=<?php $months ?>&fy=2024/2025" class="text-dark"> -->
 					<div class="info-box">
-						<span class="info-box-icon" style="background: #ffcd3d"><i class="far fa-flag"></i></span>
+						<span class="info-box-icon bg-success"><i class="fa fa-users"></i></span>
 
 						<div class="info-box-content">
 							<span class="info-box-text">System Users</span>
 							<span class="info-box-number">
-								1
+								<?php echo $user_no ?>
 							</span>
 						</div>
 						<!-- /.info-box-content -->
@@ -48,17 +48,16 @@ require('../config/config.php');
 			</div>
 			<!-- /.col -->
 			<div class="col-md-6 col-sm-6 col-12">
-				<!-- <a href="ward_revenue_target" class="text-dark"> -->
-				<!-- <a href="ward_collections?month=<?php $months ?>&fy=2024/2025" class="text-dark"> -->
 				<a href="ward_collections" class="text-dark">
 
 					<div class="info-box">
-						<span class="info-box-icon" style="background: #ffcd3d"><i class="fas fa-wallet"></i></span>
+						<span class="info-box-icon bg-success"><i class="fas fa-question"></i></span>
 
 						<div class="info-box-content">
 							<span class="info-box-text">Inquiries</span>
 							<span class="info-box-number">
-								2
+								<?php echo $inquiry_no ?>
+
 							</span>
 						</div>
 						<!-- /.info-box-content -->

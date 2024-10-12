@@ -3,11 +3,12 @@ require_once('../functions/reusableQuery.php');
 
 
 
-/* Update Profile */
+/* Email enquiry message */
 if (isset($_POST['sendMassage'])) {
 	unset($_POST['sendMassage']);
 
 	//dd($_POST);
+	$address_mail = "ndundastevn@gmail.com";
 	$user_fname = mysqli_real_escape_string($mysqli, $_POST['user_fname']);
 	$user_lname = mysqli_real_escape_string($mysqli, $_POST['user_lname']);
 	$user_email = mysqli_real_escape_string($mysqli, $_POST['user_email']);
@@ -17,13 +18,13 @@ if (isset($_POST['sendMassage'])) {
 
 	
 	
-	$res = saveData($_POST, 'inquirys');    
+	//$res = saveData($_POST, 'inquirys');    
+	include('../mailers/inquiry.php');
+	$success ="message send successful";
 	
-    if ($res) {
-		/* inquiry Email */
-		include('../mailers/inquiry.php');
-		$success ="message send successful";
-    } else {
-        $err = "Failed, please try again";
-    }
+    // if ($res) {
+	// 	/* inquiry Email */
+    // } else {
+    //     $err = "Failed, please try again";
+    // }
 }
