@@ -83,10 +83,10 @@ require_once('../partials/headf.php');
                        </li> 
                       <li class="nav-item">
                         <a id="navButton" class="nav-link active" aria-current="page" href="contactus">Contact Us</a>
-                      </li>
+                      </li>					  
 					  <li class="nav-item">
-								<a id="navButton" class="nav-link active" aria-current="page" href="login">Login</a>
-							</li>
+					  	<a id="navButton" data-toggle="modal" data-target="#loginUserr" class="nav-link active" aria-current="page" href="">Login</a>
+					</li>
                       
                     </ul>
                     
@@ -412,6 +412,7 @@ require_once('../partials/headf.php');
         </div>
     </div>
     <!-- scripts -->
+	<?php include("../modals/loging.php") ?>
 	<?php include("../partials/scriptf.php") ?>
 
 </body>
