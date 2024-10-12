@@ -3,7 +3,7 @@
         <div class="modal-content">
             <form method="POST" action="logout">
                 <div class="modal-body text-center text-dark">
-                    <img src="../public/img/small-logo.png" height="80px"><br>
+                    <img src="../public/ack/images1/school logo.jpg" height="80px"><br>
                     <h4>Leaving so soon</h4>
                     <p>Have you finished exploring the system?</p>
                     <button type="button" class="text-center btn btn-success" data-dismiss="modal">No, I'm still exploring</button>

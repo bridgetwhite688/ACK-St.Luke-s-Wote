@@ -7,7 +7,6 @@ if (isset($_POST['Add_News'])) {
 	$_POST['news_user_id'] = $_SESSION['user_id'];
 
 	//dd($_POST);
-
 	
 	$res = saveData($_POST, 'news');    
 	

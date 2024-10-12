@@ -19,7 +19,7 @@ require_once('../partials/headn.php');
         <!-- /.navbar -->
 
       <!-- Main Sidebar Container -->
-	  <?php include('../partials/ward_admin_sidenav.php'); ?>
+	  <?php include('../partials/admin_sidenav.php'); ?>
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">

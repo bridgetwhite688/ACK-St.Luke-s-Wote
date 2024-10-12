@@ -73,7 +73,7 @@ if (isset($_POST['Add_User'])) {
             VALUES ('{$user_names}', '{$user_email}', '{$user_password}', '{$user_phone_number}', '{$user_access_level}', '{$user_personal_number}')")) {
             $success = "User Added Successfully";
             /* Welcome Email */
-            include('../mailers/welcome.php');
+            //include('../mailers/welcome.php');
         } else {
             $err = "Error Adding User";
         }

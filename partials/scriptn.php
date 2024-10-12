@@ -8,6 +8,8 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="../public/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Alerts -->
+<script src="../public/plugins/sweetalert2/sweetalert2.js"></script>
 <!-- ChartJS -->
 <script src="../public/plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
@@ -28,12 +30,15 @@
 <script src="../public/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
 <script src="../public/dist/js/adminlte.js"></script>
+<!-- AdminLTE App -->
+<!-- <script src="../public/js/adminlte.js"></script> -->
+ 
+ <script src="../public/js/pages/dashboard.js"></script>
 
 <!-- new -->
 
-<script src="../public/js/pages/dashboard.js"></script>
- <!-- DataTables  & Plugins -->
- <script src="../public/plugins/datatables/jquery.dataTables.min.js"></script>
+<!-- DataTables  & Plugins -->
+<script src="../public/plugins/datatables/jquery.dataTables.min.js"></script>
 <script src="../public/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 <script src="../public/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
 <script src="../public/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
@@ -53,29 +58,27 @@
 
 <!-- bootstrap color picker -->
 <script src="../public/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
-
 <script>
-  $(function () {
+  $(function() {
     $("#example1").DataTable({
       "responsive": true,
       "lengthChange": false,
       "autoWidth": false,
-      "buttons": [
-        {
-          extend: 'pdf',
-          text: 'Export to PDF',
-          title: 'Custom PDF Title', // Set your custom title here
-          exportOptions: {
-            columns: ':visible' // Export only visible columns
-          },
-          customize: function (doc) {
-            // Customize the PDF document here
-            doc.content[1].table.widths = ['*', '*', '*', '*']; // Adjust column widths
-            doc.content[0].text = 'Makueni County, Revenue Reporting Tool'; // Set a custom header
-            doc.content[0].style = 'headerStyle'; // Apply a style if defined
-          }
+      "pageLength": 50,
+      "buttons": [{
+        extend: 'pdf',
+        text: 'Export to PDF',
+        title: 'Custom PDF Title', // Set your custom title here
+        exportOptions: {
+          columns: ':visible' // Export only visible columns
+        },
+        customize: function(doc) {
+          // Customize the PDF document here
+          doc.content[1].table.widths = ['*', '*', '*', '*']; // Adjust column widths
+          doc.content[0].text = 'Makueni County, Revenue Reporting Tool'; // Set a custom header
+          doc.content[0].style = 'headerStyle'; // Apply a style if defined
         }
-      ]
+      }]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
 
     $('#example2').DataTable({
@@ -87,43 +90,28 @@
       "autoWidth": false,
       "responsive": true,
     });
+
+  });
+  $(document).ready(function() {
+    $('.data_table').DataTable({
+      "pageLength": 50
+    }).css('white-space', 'initial');
   });
 </script>
-<!-- <script>
-  $(function () {
-    $("#example1").DataTable({
-      "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["pdf"]
-    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-    $('#example2').DataTable({
-      "paging": true,
-      "lengthChange": false,
-      "searching": false,
-      "ordering": true,
-      "info": true,
-      "autoWidth": false,
-      "responsive": true,
-    });
-  });
-</script> -->
- <!-- Swal-->  
- <script>
-     /* Prevent double submissions */
-     if (window.history.replaceState) {
-         window.history.replaceState(null, null, window.location.href);
-     }
- </script>
+
+<!-- Swal-->
+<script>
+  /* Prevent double submissions */
+  if (window.history.replaceState) {
+    window.history.replaceState(null, null, window.location.href);
+  }
+</script>
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="../public/ack/main.js"></script>
+
 
 <!-- Alerts -->
 <?php
 include('alert.php');
 require_once('../partials/logout.php');
- ?>
-
+?>

@@ -47,6 +47,25 @@
 						</p>
 					</a>
 				</li>
+				
+				<li class="nav-item">
+                    <a href="inquiries" class="nav-link">
+						<i class="nav-icon fas fa-question text-success"></i>
+						<p>
+                            Inquiries
+                        </p>
+                    </a>
+                </li>
+
+				<li class="nav-item">
+                    <a href="news" class="nav-link">
+						<i class="nav-icon fas fa-newspaper text-success"></i>
+						<p>
+                            News and Updates
+                        </p>
+                    </a>
+                </li>
+
 				<li class="nav-item">
                     <a href="users" class="nav-link">
 						<i class="nav-icon fas fa-users text-success"></i>
@@ -55,24 +74,15 @@
                         </p>
                     </a>
                 </li>
+			
 				<li class="nav-item">
-                    <a href="inquiries" class="nav-link">
-						<i class="nav-icon fas fa-users text-success"></i>
+					<a class="nav-link" data-toggle="modal" data-target="#end_session">
+						<i class="nav-icon fas fa-power-off text-success"></i>
 						<p>
-                            Inquiries
-                        </p>
-                    </a>
+							Logout
+						</p>
+					</a>                   
                 </li>
-				<li class="nav-item">
-                    <a href="news" class="nav-link">
-						<i class="nav-icon fas fa-users text-success"></i>
-						<p>
-                            News and Updates
-                        </p>
-                    </a>
-                </li>
-
-
 			
 
 			</ul>

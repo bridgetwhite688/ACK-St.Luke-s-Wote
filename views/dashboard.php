@@ -24,9 +24,9 @@ include('../partials/headn.php');
 		/* Load Specific side Based On User Access Level */
 		if ($_SESSION['user_access_level'] == 'System Administrator') {
 			/* Admin */
-			include('../partials/ward_admin_sidenav.php');
+			include('../partials/admin_sidenav.php');
 		} else {
-			include('../partials/ward_admin_sidenav.php');
+			include('../partials/admin_sidenav.php');
 		} ?>
 
 		<!-- Content Wrapper. Contains page content -->
@@ -37,10 +37,10 @@ include('../partials/headn.php');
 			if (
 				$_SESSION['user_access_level'] == 'System Administrator'
 			) {
-				require_once('../partials/wardadmin_dashboard.php');
+				require_once('../partials/admin_dashboard.php');
 			} else {
 				/* Revenue collectors */
-				require_once('../partials/wardadmin_dashboard.php');
+				require_once('../partials/admin_dashboard.php');
 			} ?>
 
 

@@ -19,7 +19,7 @@ require_once('../partials/headn.php');
 		<!-- /.navbar -->
 
 		<!-- Main Sidebar Container -->
-		<?php include('../partials/ward_admin_sidenav.php'); ?>
+		<?php include('../partials/admin_sidenav.php'); ?>
 
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
@@ -73,7 +73,9 @@ require_once('../partials/headn.php');
 											<?php
 											$fetch_records_sql = mysqli_query(
 												$mysqli,
-												"SELECT * FROM news"
+												"SELECT * FROM news
+												ORDER BY created_at DESC
+												"
 											);
 											if (mysqli_num_rows($fetch_records_sql) > 0) {
 												$cnt =  1;
@@ -131,8 +133,6 @@ require_once('../partials/headn.php');
 			<!-- /.content -->
 			<?php include('../modals/news.php'); ?>
 			<!-- Add user modal -->
-
-
 
 		</div>
 		<!-- /.content-wrapper -->
