@@ -66,7 +66,7 @@ while ($mailer = $res->fetch_object()) {
                                         </tr>
                                         <tr>
                                             <td style="padding:0 35px;">
-                                                <img src="https://ackstlukeswote.sc.ke/views/school logo.jpg"  alt="School logo">
+                                                <img src="https://staging.ackstlukeswote.sc.ke/views/school logo.jpg"  alt="School logo">
                                                 <h4 style="color:#1e1e2d; font-weight:500; margin:0;font-size:39px;font-family:"Rubik",sans-serif;">
                                                     Ack st Lukes Wote <br> 
                                                    
@@ -88,7 +88,7 @@ while ($mailer = $res->fetch_object()) {
                                                 Yours Sincerely<br>
                                                     <b>
                                                         ACK st Lukes Wote <br>
-                                                        <i>Official School Moto</i>
+                                                        <i>Strive For Excellence</i>
                                                     <br>
                                                 </b>
                                                 </p>
@@ -179,8 +179,8 @@ while ($mailer = $res->fetch_object()) {
                                                     Yours Sincerely<br>
                                                         <b>
                                                             ACK ST Lukes Wote <br>
-                                                            <i>School moto</i>
-                                                        <br>
+    	                                                    <i>Strive For Excellence</i>
+	                                                    <br>
                                                     </b>
                                                     </p>
                                                 </td>

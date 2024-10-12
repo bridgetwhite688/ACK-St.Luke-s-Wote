@@ -59,7 +59,7 @@ if (isset($_POST['Add_User'])) {
 	//dd($_POST);
     $user_names = mysqli_real_escape_string($mysqli, $_POST['user_names']);
     $user_email = mysqli_real_escape_string($mysqli, $_POST['user_email']);
-    $user_password =  sha1(md5('Makueni102'));
+    $user_password =  sha1(md5('ACK@school2024'));
     $user_phone_number = mysqli_real_escape_string($mysqli, $_POST['user_phone_number']);
     $user_access_level =  'System Administrator';
     $user_personal_number =   mysqli_real_escape_string($mysqli, $_POST['user_personal_number']);
@@ -73,7 +73,7 @@ if (isset($_POST['Add_User'])) {
             VALUES ('{$user_names}', '{$user_email}', '{$user_password}', '{$user_phone_number}', '{$user_access_level}', '{$user_personal_number}')")) {
             $success = "User Added Successfully";
             /* Welcome Email */
-            //include('../mailers/welcome.php');
+            include('../mailers/welcome.php');
         } else {
             $err = "Error Adding User";
         }
@@ -121,8 +121,8 @@ if (isset($_POST['Disable_User'])) {
 /* Update Office Password Reset */
 if (isset($_POST['Update_Officer_Password'])) {
     $user_id = mysqli_real_escape_string($mysqli, $_POST['user_id']);
-    $new_password = sha1(md5(mysqli_real_escape_string($mysqli, 'Makueni102')));
-    $confirm_password = sha1(md5(mysqli_real_escape_string($mysqli, 'Makueni102')));
+    $new_password = sha1(md5(mysqli_real_escape_string($mysqli, 'ACK@school2024')));
+    $confirm_password = sha1(md5(mysqli_real_escape_string($mysqli, 'ACK@school2024')));
 
     /* Persist */
     if ($new_password != $confirm_password) {

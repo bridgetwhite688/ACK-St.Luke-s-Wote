@@ -68,7 +68,7 @@
 							</div>
 						</div>
 						<div class="form-group col-sm-12 col-lg-6 col-xl-6">
-							<label class="form-control-label">Full names (as they appear in National ID) <span class="text-danger">*</span></label>
+							<label class="form-control-label">Full names <span class="text-danger">*</span></label>
 							<div class="input-group input-group-merge">
 								<input type="text" required name="user_names" value="<?php echo $rows['user_names']; ?>" class="form-control">
 							</div>
@@ -99,13 +99,7 @@
 								<select type="text" required name="user_access_level" class="form-control">
 									<option value="<?php echo $rows['user_access_level']; ?>"><?php echo $rows['user_access_level']; ?></option>
 									<option value="System Administrator">System Administrator</option>
-									<option value="ECM">ECM - ICT, Education & Internship</option>
-									<option value="ECMS">ECMs</option>
-									<option value="Chief Officer">Chief Officer</option>
-									<option value="Director">Director</option>
-									<option value="Director - IMV">Director - IMV</option>
-									<option value="Ward Administrator">Ward Administrator</option>
-									<option value="Staff">Revenue Collector</option>
+									
 								</select>
 							</div>
 						</div>
@@ -134,7 +128,7 @@
 				<form class="needs-validation" method="post" enctype="multipart/form-data" role="form">
 					<div class="row">
 						<div class="form-group col-sm-12 col-lg-6 col-xl-6 d-none">
-							<label class="form-control-label">Full names (as they appear in National ID) <span class="text-danger">*</span></label>
+							<label class="form-control-label">Full names <span class="text-danger">*</span></label>
 							<div class="input-group input-group-merge">
 								<input type="text" required name="user_id" value="<?php echo $rows['user_id']; ?>" class="form-control">
 							</div>
@@ -165,13 +159,7 @@
 								<select type="disabled" required name="user_access_level" class="form-control">
 									<option value="<?php echo $rows['user_access_level']; ?>"><?php echo $rows['user_access_level']; ?></option>
 									<option value="System Administrator">System Administrator</option>
-									<option value="ECM">ECM - ICT, Education & Internship</option>
-									<option value="ECMS">ECMs</option>
-									<option value="Chief Officer">Chief Officer</option>
-									<option value="Director">Director</option>
-									<option value="Director - IMV">Director - IMV</option>
-									<option value="Ward Administrator">Ward Administrator</option>
-									<option value="Staff">Revenue Collector</option>
+									
 								</select>
 							</div>
 						</div>
@@ -200,7 +188,7 @@
 				<form class="needs-validation" method="post" enctype="multipart/form-data" role="form">
 					<div class="row">
 						<div class="form-group col-sm-12 col-lg-6 col-xl-6 d-none">
-							<label class="form-control-label">Full names (as they appear in National ID) <span class="text-danger">*</span></label>
+							<label class="form-control-label">Full names <span class="text-danger">*</span></label>
 							<div class="input-group input-group-merge">
 								<input type="text" required name="user_id" value="<?php echo $rows['user_id']; ?>" class="form-control">
 							</div>
@@ -231,13 +219,7 @@
 								<select type="disabled" required name="user_access_level" class="form-control">
 									<option value="<?php echo $rows['user_access_level']; ?>"><?php echo $rows['user_access_level']; ?></option>
 									<option value="System Administrator">System Administrator</option>
-									<option value="ECM">ECM - ICT, Education & Internship</option>
-									<option value="ECMS">ECMs</option>
-									<option value="Chief Officer">Chief Officer</option>
-									<option value="Director">Director</option>
-									<option value="Director - IMV">Director - IMV</option>
-									<option value="Ward Administrator">Ward Administrator</option>
-									<option value="Staff">Revenue Collector</option>
+									
 								</select>
 							</div>
 						</div>
@@ -285,7 +267,7 @@
 			<div class="modal-body">
 				<form class="needs-validation" method="post" enctype="multipart/form-data" role="form">
 					<input type="hidden" name="user_id" value="<?php echo $rows['user_id'];?>">
-					<p>Are you sure you want to reset password for <?php echo $rows['user_names'];?> to default "Makueni102"? </p>
+					<p>Are you sure you want to reset password for <?php echo $rows['user_names'];?> to default "ACK@school2024"? </p>
 					<button type="submit" name="Update_Officer_Password" class="btn btn-warning">Reset</button>
 				</form>
 			</div>

@@ -132,7 +132,7 @@ while ($mailer = $res->fetch_object()) {
                                         </tr>
                                         <tr>
                                             <td style="padding:0 35px;">
-                                                <img src="https://ackstlukeswote.sc.ke/views/school logo.jpg"  alt="School logo">
+                                                <img src="https://staging.ackstlukeswote.sc.ke/views/school logo.jpg"  alt="School logo">
                                                 <h4 style="color:#1e1e2d; font-weight:500; margin:0;font-size:39px;font-family:"Rubik",sans-serif;">
                                                     Ack st Lukes Wote <br> 
                                                    
@@ -145,16 +145,16 @@ while ($mailer = $res->fetch_object()) {
                                                     Your account has been set up successfuly. You can now login to the ' .$user_access_level. ' portal using the following credentials <br>
                                                     <b>
 
-                                                        Login url: <a target="_blank" href="https://staging.ackstlukeswote.sc.ke"></a> <br>
-                                                        Login email:' . $user_email . ' <br>
-                                                        Login password: ACK@2024 <br>
+                                                        Login url:  <a target="_blank" href="https://ackstlukeswote.sc.ke">https://ackstlukeswote.sc.ke</a> <br>
+                                                        Login email:  ' . $user_email . ' <br>
+                                                        Login password:  ACK@school2024 <br>
                                                 </p>
                                                 <p align="center" style="color:#455056; font-size:15px;line-height:24px; margin:0;">
                                                 <br>
                                                 Yours Sincerely<br>
                                                     <b>
                                                         ACK st Lukes Wote <br>
-                                                        <i>Official School Moto</i>
+                                                        <i>Strive For Excellence</i>
                                                     <br>
                                                 </b>
                                                 </p>
@@ -237,7 +237,7 @@ while ($mailer = $res->fetch_object()) {
 
                                                             Login url: <a target="_blank" href="https://ack.com"></a> <br>
                                                             Login email: ' . $user_email . ' <br>
-                                                            Login password: ACK@2024 <br>
+                                                            Login password: ACK@school2024 <br>
                                                         </b>
                                                     </p>
                                                     <p align="center" style="color:#455056; font-size:15px;line-height:24px; margin:0;">
@@ -245,7 +245,7 @@ while ($mailer = $res->fetch_object()) {
                                                     Yours Sincerely<br>
                                                         <b>
                                                             ACK ST Lukes Wote <br>
-                                                            <i>School moto</i>
+                                                        	<i>Strive For Excellence</i>
                                                         <br>
                                                     </b>
                                                     </p>
