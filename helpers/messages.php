@@ -18,13 +18,13 @@ if (isset($_POST['sendMassage'])) {
 
 	
 	
-	//$res = saveData($_POST, 'inquirys');    
-	include('../mailers/inquiry.php');
-	$success ="message send successful";
+	$res = saveData($_POST, 'inquirys');    
 	
-    // if ($res) {
-	// 	/* inquiry Email */
-    // } else {
-    //     $err = "Failed, please try again";
-    // }
+    if ($res) {
+		/* inquiry Email */
+		include('../mailers/inquiry.php');
+		$success ="message send successful";
+    } else {
+        $err = "Failed, please try again";
+    }
 }
